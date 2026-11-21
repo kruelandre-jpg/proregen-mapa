@@ -21,5 +21,4 @@ O código-fonte React/Vite fica no Manus; aqui está o build já compilado.
 3. `python3 scripts/build.py --dados oficial` reescreve o array de clínicas dentro do bundle minificado.
 4. Commit e push na `main`. O Pages atualiza em cerca de um minuto.
 
-Clínica nova sem coordenada no mapa antigo usa a coordenada da geocodificação oficial; a categoria
-(Ortopedia ou Unique) vem do mapa antigo e, para clínica nova, fica Ortopedia até alguém ajustar em `scripts/build.py`.
+A lista oficial é a única fonte: um ponto no mapa por local (Tubarão gera 2 pinos). Clínica de um só local reaproveita a coordenada municipal do mapa antigo, se houver; locais extras usam a geocodificação oficial. A categoria (Ortopedia ou Unique) vem da lista oficial (Regular vira Ortopedia).

@@ -1,0 +1,26 @@
+diferenças Manus -> oficial (33 -> 34 pontos):
++ entra: tubarao-sc-local-2
+~ belem-pa.address: "Rua dos Mundurucus, 3100 — sobreloja, sala 10, Edifício Metropolitan Tower" -> "Rua dos Mundurucos, 3100 — Ed. Metropolitan Tower, sobreloja sala 10"
+~ belem-pa.neighborhood: "Cremação" -> null
+~ brasilia-df.address: "Quadra QNL 30, Conjunto A, Lotes 2, 4 e 6 — loja 3" -> "Quadra QNL 30 Conjunto A, Lotes 2, 4 e 6 — Loja 3"
+~ campo-grande-ms.address: "Rua Alagoas, 396 — sala 1006, Edifício Atrium" -> "Rua Alagoas, 396 — sala 1006, Ed. Atrium"
+~ chapeco-sc.address: "Rua Rui Barbosa D, 200-D" -> "Rua Rui Barbosa - D, 200 D"
+~ lajeado-rs.address: "Avenida Benjamin Constant, 852 — sala 301" -> "Avenida Benjamin Constant, 1126 — sala 303"
+~ lavras-mg.address: "Avenida Dra. Damina Zakhian, 33" -> "Av. Dra. Damina Zakhian, 33"
+~ lucas-do-rio-verde-mt.address: "Avenida Rio Grande do Sul, 877-S" -> "Av. Rio Grande do Sul, 877S"
+~ nova-prata-rs.address: "Avenida Cônego Peres, 690 — sala 701, Edifício Euphrosina Cherubini" -> "Avenida Cônego Peres, 690 — sala 701"
+~ palmas-to.address: "Quadra ARSE 41, Alameda 11, s/n — lote 3, QR 13" -> "Quadra ARSE 41, Alameda 11, s/n, Lote 3, QR 13"
+~ santa-cruz-do-sul-rs.address: "Rua Marechal Deodoro, 949 — sala 202" -> "Rua Marechal Deodoro, 949 — 202"
+~ santa-maria-rs.address: "Rua Pinheiro Machado, 2366 — sala 603" -> "Rua Pinheiro Machado, 2366 — 603"
+~ sobral-ce.address: "Avenida Monsenhor José Aloísio Pinto, 1362 — salas 221 e 222" -> "Avenida Monsenhor José Aloísio Pinto, 1362 — salas 221/222"
+~ tubarao-sc.address: null -> "Rua Padre Bernardo Freuser, 228"
+~ tubarao-sc.addressPending: true -> null
+~ tubarao-sc.lat: -28.4713 -> -28.4808
+~ tubarao-sc.lng: -49.0144 -> -49.0046
+~ tubarao-sc.neighborhood: null -> "Centro"
+~ tubarao-sc.note: "Endereço e contato da unidade em confirmação." -> null
+~ tubarao-sc.phones: [] -> ["(48) 3631-1400", "(48) 3631-1515", "(48) 3631-1500"]
+~ tubarao-sc.postalCode: null -> "88701-140"
+~ tubarao-sc.unitName: "Proregen Tubarão" -> "Proregen Tubarão (local 1: Ortoimagem Centro de Ortopedia)"
+~ tubarao-sc.website: null -> "https://drfabriciozanella.com.br/"
+~ xangri-la-rs.neighborhood: "Santorini" -> "Bairro Santorini"

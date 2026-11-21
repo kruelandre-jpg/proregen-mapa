@@ -56,7 +56,19 @@ def avalia(literal: str):
         f.write("process.stdout.write(JSON.stringify(" + literal + "))")
     return json.loads(subprocess.check_output(["node", f.name]))
 
+def categoria(u: dict, v: dict) -> str:
+    if u.get("e_matriz"):
+        return "Matriz"
+    obs = (u.get("obs") or "").strip()
+    if obs in ("Unique", "Matriz", "Ortopedia"):
+        return obs
+    if obs == "Regular":
+        return "Ortopedia"
+    return v.get("category", "Ortopedia")
+
+
 def lista_oficial(pasta: Path, atual: list[dict]) -> list[dict]:
+    """Um ponto no mapa por local da lista oficial (Tubarão gera 2 pinos)."""
     U = json.loads((pasta / "unidades.publico.json").read_text())["unidades"]
     M = json.loads((pasta / "medicos.json").read_text())["medicos"]
     velho = {c["id"]: c for c in atual}
@@ -66,38 +78,40 @@ def lista_oficial(pasta: Path, atual: list[dict]) -> list[dict]:
     out = []
     for num, locais in por_num.items():
         locais.sort(key=lambda x: x.get("local") or 1)
-        u = locais[0]
-        cid = slug(f'{u["cidade"]}-{u["uf"]}')
-        v = velho.get(cid, {})
         meds = sorted([m for m in M if m["numero_unidade"] == num], key=lambda m: chave(m["nome"]))
-        c = {"id": cid, "city": u["cidade"], "state": u["uf"],
-             "lat": v.get("lat", round(u["lat"], 4)), "lng": v.get("lng", round(u["lon"], 4)),
-             "region": REGIAO[u["uf"]],
-             "category": "Matriz" if u["e_matriz"] else v.get("category", "Ortopedia"),
-             "unitName": re.sub(r"\s*\(local \d+:.*\)$", "", u["nome"]),
-             "members": [{"name": m["nome"], "registration": m["crm_rqe"], "specialty": m["especialidade"]} for m in meds]}
-        if v.get("members") and {m["name"] for m in v["members"]} == {m["name"] for m in c["members"]}:
-            ordem = [m["name"] for m in v["members"]]
-            c["members"].sort(key=lambda m: ordem.index(m["name"]))
-        c["doctorCount"] = len(c["members"])
-        c["doctors"] = (f'{len(c["members"])} profissionais na equipe informada' if len(c["members"]) >= 5
-                        else " · ".join(m["name"] for m in c["members"]))
-        c["phones"] = u.get("telefones") or []
-        c["instagram"] = [i.lstrip("@") for i in (u.get("instagram") or [])]
-        if u.get("endereco"):
-            c["address"] = u["endereco"]
-            if u.get("bairro"): c["neighborhood"] = u["bairro"]
-            if u.get("cep"): c["postalCode"] = u["cep"]
-        else:
-            c["addressPending"] = True
-            if v.get("note"): c["note"] = v["note"]
-        extra = [f'{l["endereco"]}, {l["bairro"]}' if l.get("bairro") else l["endereco"] for l in locais[1:] if l.get("endereco")]
-        if extra:
-            c["note"] = "Também atende em: " + "; ".join(extra) + "."
-        sites = [s for s in (u.get("sites") or []) if s.startswith("http")]
-        if sites: c["website"] = "\n".join(sites)
-        if u["e_matriz"]: c["headquarters"] = True
-        out.append(c)
+        for u in locais:
+            nloc = u.get("local") or 1
+            base = slug(f'{u["cidade"]}-{u["uf"]}')
+            cid = base if nloc == 1 else f"{base}-local-{nloc}"
+            # Com mais de um local, usa a coordenada oficial do endereço para os pinos não coincidirem.
+            # Unidade única reaproveita a coordenada municipal do mapa antigo, se houver.
+            v = velho.get(cid, {}) if len(locais) == 1 else {}
+            lat = v.get("lat", round(u["lat"], 4) if u.get("lat") is not None else None)
+            lng = v.get("lng", round(u["lon"], 4) if u.get("lon") is not None else None)
+            nome = u["nome"] if len(locais) > 1 else re.sub(r"\s*\(local \d+:.*\)$", "", u["nome"])
+            c = {"id": cid, "city": u["cidade"], "state": u["uf"],
+                 "lat": lat, "lng": lng, "region": REGIAO[u["uf"]],
+                 "category": categoria(u, v), "unitName": nome,
+                 "members": [{"name": m["nome"], "registration": m["crm_rqe"], "specialty": m["especialidade"]} for m in meds]}
+            if v.get("members") and {m["name"] for m in v["members"]} == {m["name"] for m in c["members"]}:
+                ordem = [m["name"] for m in v["members"]]
+                c["members"].sort(key=lambda m: ordem.index(m["name"]))
+            c["doctorCount"] = len(c["members"])
+            c["doctors"] = (f'{len(c["members"])} profissionais na equipe informada' if len(c["members"]) >= 5
+                            else " · ".join(m["name"] for m in c["members"]))
+            c["phones"] = u.get("telefones") or []
+            c["instagram"] = [i.lstrip("@") for i in (u.get("instagram") or [])]
+            if u.get("endereco"):
+                c["address"] = u["endereco"]
+                if u.get("bairro"): c["neighborhood"] = u["bairro"]
+                if u.get("cep"): c["postalCode"] = u["cep"]
+            else:
+                c["addressPending"] = True
+                if v.get("note"): c["note"] = v["note"]
+            sites = [s for s in (u.get("sites") or []) if s.startswith("http")]
+            if sites: c["website"] = "\n".join(sites)
+            if u["e_matriz"]: c["headquarters"] = True
+            out.append(c)
     out.sort(key=lambda c: (0 if c.get("headquarters") else 1, c["id"]))
     return out
 
@@ -150,9 +164,20 @@ def main():
             f.write_text(t)
 
     ufs = {c["state"] for c in clinicas}
-    afil = len([c for c in clinicas if not c.get("headquarters")])
-    est = len(ufs - {"DF"})
-    desc = f"Mapa 3D interativo da rede nacional Proregen: a matriz e {afil} clínicas afiliadas em {est} estados" + (" e o DF." if "DF" in ufs else ".")
+    if a.dados == "oficial":
+        meta = json.loads((Path(a.pasta_oficial) / "unidades.publico.json").read_text())["meta"]
+        afil = meta["total_afiliadas"]
+        est = meta["estados"]
+        df = meta.get("inclui_df")
+        n_unidades = meta["total_unidades_incluindo_matriz"]
+        n_locais = meta["total_locais"]
+    else:
+        afil = len([c for c in clinicas if not c.get("headquarters")])
+        est = len(ufs - {"DF"})
+        df = "DF" in ufs
+        n_unidades = afil + (1 if any(c.get("headquarters") for c in clinicas) else 0)
+        n_locais = len(clinicas)
+    desc = f"Mapa 3D interativo da rede nacional Proregen: a matriz e {afil} clínicas afiliadas em {est} estados" + (" e o DF." if df else ".")
     html = html.replace('src="/assets/', 'src="./assets/').replace('href="/assets/', 'href="./assets/').replace('href="/manus-storage/', 'href="./manus-storage/')
     html = re.sub(r'(name="description"\s+content=")[^"]*"', rf'\g<1>{desc}"', html)
     html = re.sub(r'(property="og:description" content=")[^"]*"', rf'\g<1>{desc}"', html)
@@ -167,7 +192,7 @@ def main():
     (OUT / "index.html").write_text(html)
     (OUT / "404.html").write_text(html)
     (OUT / ".nojekyll").write_text("")
-    print(f"docs/ gerado: {len(clinicas)} pontos ({afil} afiliadas + matriz), {est} estados{' + DF' if 'DF' in ufs else ''}; dados={a.dados}")
+    print(f"docs/ gerado: {n_unidades} unidades / {n_locais} locais ({len(clinicas)} pontos, {afil} afiliadas + matriz), {est} estados{' + DF' if df else ''}; dados={a.dados}")
 
 if __name__ == "__main__":
     main()

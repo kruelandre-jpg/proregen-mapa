@@ -1,0 +1,1337 @@
+[
+ {
+  "id": "bento-goncalves-rs",
+  "city": "Bento Gonçalves",
+  "state": "RS",
+  "lat": -29.1662,
+  "lng": -51.5165,
+  "region": "Sul",
+  "category": "Matriz",
+  "unitName": "Clínica Proregen (Matriz)",
+  "members": [
+   {
+    "name": "Dr. Alfredo Scarton",
+    "registration": "CRM 13049 / RQE 5908",
+    "specialty": "Ortopedia e Traumatologia"
+   },
+   {
+    "name": "Dr. André Kruel",
+    "registration": "CRM/RS 23.627 / RQE 14.323 / TEOT 7.955",
+    "specialty": "Ortopedia e Traumatologia, Ortopedia Regenerativa, Cirurgia de próteses articulares de quadril, joelho e ombro"
+   },
+   {
+    "name": "Dr. Flávio Augusto Gava",
+    "registration": "CRM/RS 35.635 / RQE 37.168",
+    "specialty": "Ortopedia e Traumatologia"
+   }
+  ],
+  "doctorCount": 3,
+  "doctors": "Dr. Alfredo Scarton · Dr. André Kruel · Dr. Flávio Augusto Gava",
+  "phones": [
+   "(54) 3702-0302",
+   "(54) 99689-1295"
+  ],
+  "instagram": [
+   "dr.andrekruel",
+   "drscarton",
+   "ortogava"
+  ],
+  "address": "Rua Dr. José Mário Mônaco, 333 — sala 302, Centro Comercial São Lucas",
+  "neighborhood": "Centro",
+  "postalCode": "95700-066",
+  "headquarters": true
+ },
+ {
+  "id": "belem-pa",
+  "city": "Belém",
+  "state": "PA",
+  "lat": -1.4554,
+  "lng": -48.4898,
+  "region": "Norte",
+  "category": "Unique",
+  "unitName": "Clínica Avivah",
+  "members": [
+   {
+    "name": "Dra. Silvia Ataide da Silva",
+    "registration": "CRM/PA 7941",
+    "specialty": "Anestesiologia e Terapia de Dores Crônicas"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dra. Silvia Ataide da Silva",
+  "phones": [
+   "(91) 98552-8000"
+  ],
+  "instagram": [
+   "clinica.avivah",
+   "draataide"
+  ],
+  "address": "Rua dos Mundurucos, 3100 — Ed. Metropolitan Tower, sobreloja sala 10",
+  "postalCode": "66040-033"
+ },
+ {
+  "id": "brasilia-df",
+  "city": "Brasília",
+  "state": "DF",
+  "lat": -15.7795,
+  "lng": -47.9297,
+  "region": "Centro-Oeste",
+  "category": "Ortopedia",
+  "unitName": "JK Ortopedia e Clínica da Dor",
+  "members": [
+   {
+    "name": "Dr. Alessandro Marcondes Leite",
+    "registration": "CRM/DF 17.773",
+    "specialty": "Ortopedia e Traumatologia"
+   },
+   {
+    "name": "Dr. Lucas Sena da Costa",
+    "registration": "CRM/DF 20.621",
+    "specialty": "Ortopedia e Traumatologia"
+   }
+  ],
+  "doctorCount": 2,
+  "doctors": "Dr. Alessandro Marcondes Leite · Dr. Lucas Sena da Costa",
+  "phones": [
+   "(61) 3491-7488",
+   "(61) 99623-4383"
+  ],
+  "instagram": [
+   "jkortopedia",
+   "dralessandroleite",
+   "dr.lucassena"
+  ],
+  "address": "Quadra QNL 30 Conjunto A, Lotes 2, 4 e 6 — Loja 3",
+  "neighborhood": "Taguatinga Norte",
+  "postalCode": "72162-301",
+  "website": "https://ortopediajk.com.br/\nhttps://drlucassena.com.br/"
+ },
+ {
+  "id": "camaqua-rs",
+  "city": "Camaquã",
+  "state": "RS",
+  "lat": -30.8489,
+  "lng": -51.8043,
+  "region": "Sul",
+  "category": "Unique",
+  "unitName": "Clínica Dworzecki",
+  "members": [
+   {
+    "name": "Dr. Marcelo Dworzecki",
+    "registration": "CRM/RS 38.335 / RQE 37.098",
+    "specialty": "Ginecologia e Obstetrícia"
+   },
+   {
+    "name": "Dra. Jaqueline Lessa Pinheiro",
+    "registration": "CRM/RS 52.632",
+    "specialty": "Clínica Geral (emagrecimento e lipedema)"
+   }
+  ],
+  "doctorCount": 2,
+  "doctors": "Dr. Marcelo Dworzecki · Dra. Jaqueline Lessa Pinheiro",
+  "phones": [
+   "(51) 3671-1201"
+  ],
+  "instagram": [
+   "marcelo.dworzecki",
+   "jaquelinelessapinheiro"
+  ],
+  "address": "Rua Júlio de Castilhos, 755 — sala 2",
+  "neighborhood": "Centro",
+  "postalCode": "96780-072"
+ },
+ {
+  "id": "campo-grande-ms",
+  "city": "Campo Grande",
+  "state": "MS",
+  "lat": -20.4486,
+  "lng": -54.6295,
+  "region": "Centro-Oeste",
+  "category": "Unique",
+  "unitName": "Acqua Saúde e Imagem",
+  "members": [
+   {
+    "name": "Dr. Daniel Tomaz Lopes",
+    "registration": "CRM/MS 9058 / RQE 6854",
+    "specialty": "Radiologia e Diagnóstico por Imagem (pós em Ciência da Obesidade e Sarcopenia; fellow em Tricologia)"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Daniel Tomaz Lopes",
+  "phones": [
+   "(67) 98120-2741"
+  ],
+  "instagram": [
+   "drdanieltomazlopes"
+  ],
+  "address": "Rua Alagoas, 396 — sala 1006, Ed. Atrium",
+  "neighborhood": "Jardim dos Estados",
+  "postalCode": "79020-120",
+  "website": "https://acquasaude.com/"
+ },
+ {
+  "id": "canoinhas-sc",
+  "city": "Canoinhas",
+  "state": "SC",
+  "lat": -26.1766,
+  "lng": -50.395,
+  "region": "Sul",
+  "category": "Unique",
+  "unitName": "You Institute Saúde Personalizada",
+  "members": [
+   {
+    "name": "Dr. Franco Ricieri Mazzaro",
+    "registration": "CRM/SC 13669 / RQE 7096",
+    "specialty": "Psiquiatria"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Franco Ricieri Mazzaro",
+  "phones": [
+   "(47) 99111-2699"
+  ],
+  "instagram": [
+   "youinstitutecanoinhas"
+  ],
+  "address": "Rua Frei Menandro Kamps, 257 — sala 103",
+  "neighborhood": "Centro",
+  "postalCode": "89460-126"
+ },
+ {
+  "id": "carazinho-rs",
+  "city": "Carazinho",
+  "state": "RS",
+  "lat": -28.2958,
+  "lng": -52.7933,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Proregen Carazinho",
+  "members": [
+   {
+    "name": "Dr. Gilberto Carlos do Amaral",
+    "registration": "CRM/RS 17.689 / RQE 28.348 e 28.349",
+    "specialty": "Urologia (e Cirurgia Geral)"
+   },
+   {
+    "name": "Dr. Nelson Esteve",
+    "registration": "CRM/RS 37.952 / RQE 32.084",
+    "specialty": "Ortopedia e Traumatologia (Ortopedia Geral, Ombro e Cotovelo)"
+   }
+  ],
+  "doctorCount": 2,
+  "doctors": "Dr. Gilberto Carlos do Amaral · Dr. Nelson Esteve",
+  "phones": [],
+  "instagram": [
+   "drnelsonesteve",
+   "gilbertoamaral66"
+  ],
+  "addressPending": true
+ },
+ {
+  "id": "chapeco-sc",
+  "city": "Chapecó",
+  "state": "SC",
+  "lat": -27.1004,
+  "lng": -52.6152,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Hospital Cazza",
+  "members": [
+   {
+    "name": "Dr. Felipi Ferreira Lazzari",
+    "registration": "CRM/SC 22.975 / RQE 17.417",
+    "specialty": "Ortopedia e Traumatologia, especialista em Cirurgia da Coluna Vertebral (e Medicina da Dor)"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Felipi Ferreira Lazzari",
+  "phones": [
+   "(47) 98467-7050"
+  ],
+  "instagram": [
+   "dr.felipilazzari"
+  ],
+  "address": "Rua Rui Barbosa - D, 200 D",
+  "neighborhood": "Centro",
+  "postalCode": "89801-042",
+  "website": "https://www.lazzarimed.com.br/"
+ },
+ {
+  "id": "criciuma-sc",
+  "city": "Criciúma",
+  "state": "SC",
+  "lat": -28.6723,
+  "lng": -49.3729,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Osteo Ortopedia",
+  "members": [
+   {
+    "name": "Dr. Anderlei Antonelli",
+    "registration": "CRM/SC 2193 / RQE 3110 / 769",
+    "specialty": "Ortopedia e Traumatologia"
+   },
+   {
+    "name": "Dr. Bruno Guollo",
+    "registration": "CRM 18463 / RQE 15619",
+    "specialty": "Cirurgia de Ombro e Cotovelo"
+   },
+   {
+    "name": "Dr. Cesar Benetton",
+    "registration": "CRM 14827 / RQE 11012",
+    "specialty": "Cirurgia de Pé e Tornozelo"
+   },
+   {
+    "name": "Dr. Cristian Hirsch",
+    "registration": "CRM 21005 / RQE 18541",
+    "specialty": "Cirurgia de Ombro e Cotovelo"
+   },
+   {
+    "name": "Dr. Eleonor Soligo",
+    "registration": "CRM 24673 / RQE 20096",
+    "specialty": "Cirurgia de Coluna Vertebral"
+   },
+   {
+    "name": "Dr. Elias Scheidt",
+    "registration": "CRM 2872",
+    "specialty": "Cirurgia de Pé e Tornozelo"
+   },
+   {
+    "name": "Dr. Evandro Nicolau",
+    "registration": "CRM 9641 / RQE 4220",
+    "specialty": "Cirurgia de Quadril"
+   },
+   {
+    "name": "Dr. Gabriel Antunes",
+    "registration": "CRM 21883 / RQE 17358",
+    "specialty": "Cirurgia de Quadril"
+   },
+   {
+    "name": "Dr. Gabriel Schmidt",
+    "registration": "CRM 16520 / RQE 11471",
+    "specialty": "Cirurgia de Coluna Vertebral"
+   },
+   {
+    "name": "Dr. Giovanni Zappellini",
+    "registration": "CRM 19595 / RQE 17270",
+    "specialty": "Ortopedia e Traumatologia"
+   },
+   {
+    "name": "Dr. Henrique Becker",
+    "registration": "CRM 23438 / RQE 23691",
+    "specialty": "Cirurgia do Joelho"
+   },
+   {
+    "name": "Dr. Jiovani Fuzer",
+    "registration": "CRM 8053 / RQE 4205",
+    "specialty": "Cirurgia de Coluna Vertebral"
+   },
+   {
+    "name": "Dr. José Carlos Ghedin",
+    "registration": "CRM/SC 3169 / RQE 813",
+    "specialty": "Cirurgia do Joelho"
+   },
+   {
+    "name": "Dr. José Marcos",
+    "registration": "CRM 28538 / RQE 27284",
+    "specialty": "Cirurgia de Ombro e Cotovelo"
+   },
+   {
+    "name": "Dr. Luan Rocha",
+    "registration": "CRM 27726 / RQE 25278",
+    "specialty": "Cirurgia de Coluna Vertebral"
+   },
+   {
+    "name": "Dr. Marcelo Daleffe",
+    "registration": "CRM 21302 / RQE 15927",
+    "specialty": "Ortopedia Pediátrica"
+   },
+   {
+    "name": "Dr. Murilo Daleffe",
+    "registration": "CRM 17789 / RQE 12881",
+    "specialty": "Cirurgia de Pé e Tornozelo"
+   },
+   {
+    "name": "Dr. Pedro Bosse",
+    "registration": "CRM 20682 / RQE 17476",
+    "specialty": "Cirurgia de Mão e Punho"
+   },
+   {
+    "name": "Dr. Rodrigo Scheidt",
+    "registration": "CRM 12524 / RQE 8638",
+    "specialty": "Cirurgia de Quadril (Responsável Técnico)"
+   }
+  ],
+  "doctorCount": 19,
+  "doctors": "19 profissionais na equipe informada",
+  "phones": [
+   "(48) 3437-1788"
+  ],
+  "instagram": [
+   "osteoortopedia"
+  ],
+  "address": "Rua João Cechinel, 368",
+  "neighborhood": "Pio Corrêa",
+  "postalCode": "88811-500",
+  "website": "https://osteoortopedia.com.br/"
+ },
+ {
+  "id": "encantado-rs",
+  "city": "Encantado",
+  "state": "RS",
+  "lat": -29.2351,
+  "lng": -51.8703,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Proregen Encantado",
+  "members": [
+   {
+    "name": "Dr. Luiz Henrique Boaro",
+    "registration": "CRM/RS 39.749 / RQE 36.787",
+    "specialty": "Ortopedia e Traumatologia"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Luiz Henrique Boaro",
+  "phones": [
+   "(51) 98033-4036",
+   "(51) 3620-1073"
+  ],
+  "instagram": [
+   "luizhboaro"
+  ],
+  "address": "Rua Duque de Caxias, 411 — sala 302",
+  "neighborhood": "Centro",
+  "postalCode": "95960-000"
+ },
+ {
+  "id": "florianopolis-sc",
+  "city": "Florianópolis",
+  "state": "SC",
+  "lat": -27.5945,
+  "lng": -48.5477,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Revitalle",
+  "members": [
+   {
+    "name": "Dr. Cássio Alves Konrath",
+    "registration": "CRM/SC 19344 / RQE 12544",
+    "specialty": "Ortopedista (Joelho e Geral)"
+   },
+   {
+    "name": "Dr. Leandro David dos Santos",
+    "registration": "CRM/SC 22137 / RQE 12963",
+    "specialty": "Ortopedista (Joelho e Quadril)"
+   },
+   {
+    "name": "Dr. Pedro Kanan",
+    "registration": "CRM/SC 19658 / RQE 11332",
+    "specialty": "Ortopedista (Pé e Tornozelo)"
+   },
+   {
+    "name": "Dr. Stefan Dias Zolin",
+    "registration": "CRM/SC 19352 / RQE 15191",
+    "specialty": "Ortopedista (Mão e Punho)"
+   },
+   {
+    "name": "Dr. Vinícius Porto Botelho",
+    "registration": "CRM/SC 11504 / RQE 9094",
+    "specialty": "Ortopedista (Ombro e Cotovelo)"
+   }
+  ],
+  "doctorCount": 5,
+  "doctors": "5 profissionais na equipe informada",
+  "phones": [
+   "(48) 99188-1044"
+  ],
+  "instagram": [
+   "drpedrokanan",
+   "drstefanzolin",
+   "dr.viniciusbotelho",
+   "drleandrodavid"
+  ],
+  "address": "Rua General Estilac Leal, 122",
+  "neighborhood": "Coqueiros",
+  "postalCode": "88080-760",
+  "website": "https://revitalle.com.br/"
+ },
+ {
+  "id": "garanhuns-pe",
+  "city": "Garanhuns",
+  "state": "PE",
+  "lat": -8.88243,
+  "lng": -36.4966,
+  "region": "Nordeste",
+  "category": "Ortopedia",
+  "unitName": "Clínica Ideal Center",
+  "members": [
+   {
+    "name": "Dr. Ricardo dos Santos Valença Ferreira",
+    "registration": "CRM/PE 17.845",
+    "specialty": "Ortopedia e Traumatologia (atua também como Perito Médico)"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Ricardo dos Santos Valença Ferreira",
+  "phones": [
+   "(87) 99808-1593"
+  ],
+  "instagram": [
+   "drricardoortopedista",
+   "proregengaranhuns"
+  ],
+  "address": "Avenida Rui Barbosa, 1401",
+  "neighborhood": "Heliópolis",
+  "postalCode": "55297-050"
+ },
+ {
+  "id": "goiania-go",
+  "city": "Goiânia",
+  "state": "GO",
+  "lat": -16.6864,
+  "lng": -49.2643,
+  "region": "Centro-Oeste",
+  "category": "Ortopedia",
+  "unitName": "Clínica Regen",
+  "members": [
+   {
+    "name": "Dr. Denis Ferreira de Borba",
+    "registration": "CRM/GO 18.629 / RQE 12.432",
+    "specialty": "Ortopedia e Traumatologia, Cirurgia da Mão"
+   },
+   {
+    "name": "Dr. Igor de Castro Aquino",
+    "registration": "CRM/GO 13.030 / RQE 7.508",
+    "specialty": "Ortopedia e Traumatologia"
+   },
+   {
+    "name": "Dr. Rogério de Andrade Amaral",
+    "registration": "CRM/GO 7.296 / RQE 3.723 / 5.764",
+    "specialty": "Ortopedia e Traumatologia, Medicina Esportiva, Oncologia Ortopédica, Quadril, Ombro e Cotovelo"
+   }
+  ],
+  "doctorCount": 3,
+  "doctors": "Dr. Denis Ferreira de Borba · Dr. Igor de Castro Aquino · Dr. Rogério de Andrade Amaral",
+  "phones": [
+   "(62) 99129-7532"
+  ],
+  "instagram": [
+   "clinicaregen"
+  ],
+  "address": "Avenida T04, 1340 — salas 109 a 116",
+  "neighborhood": "Setor Bueno",
+  "postalCode": "74230-030",
+  "website": "https://clinicaregen.com.br/"
+ },
+ {
+  "id": "itapeva-sp",
+  "city": "Itapeva",
+  "state": "SP",
+  "lat": -23.9788,
+  "lng": -48.8764,
+  "region": "Sudeste",
+  "category": "Ortopedia",
+  "unitName": "Instituto de Saúde",
+  "members": [
+   {
+    "name": "Dr. Everton Henrique Santos Oliveira",
+    "registration": "CRM/SP 191.694",
+    "specialty": "Ortopedia e Traumatologia"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Everton Henrique Santos Oliveira",
+  "phones": [
+   "(15) 3521-8307",
+   "(15) 99166-2361 (WhatsApp)"
+  ],
+  "instagram": [
+   "everton.ortop"
+  ],
+  "address": "Rua Mário Prandini, 742",
+  "neighborhood": "Centro",
+  "postalCode": "18400-170"
+ },
+ {
+  "id": "joao-pessoa-pb",
+  "city": "João Pessoa",
+  "state": "PB",
+  "lat": -7.11509,
+  "lng": -34.8641,
+  "region": "Nordeste",
+  "category": "Ortopedia",
+  "unitName": "Proregen João Pessoa",
+  "members": [
+   {
+    "name": "Dr. Lucas Maia Gonçalves de Medeiros",
+    "registration": "CRM/PB 8080",
+    "specialty": "Ortopedia e Traumatologia (Trauma Esportivo, Cirurgia do Joelho, Reconstrução Óssea e Medicina Regenerativa)"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Lucas Maia Gonçalves de Medeiros",
+  "phones": [
+   "(83) 99166-6167"
+  ],
+  "instagram": [
+   "dr.lucasmmedeiros",
+   "proregenjp"
+  ],
+  "address": "Avenida Senador Ruy Carneiro, 333 — sala 901",
+  "neighborhood": "Brisamar",
+  "postalCode": "58032-100"
+ },
+ {
+  "id": "joinville-sc",
+  "city": "Joinville",
+  "state": "SC",
+  "lat": -26.3045,
+  "lng": -48.8487,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Vitaville/Vitador Medicina da Dor e Regenerativa",
+  "members": [
+   {
+    "name": "Dr. Marco Antonio Martins",
+    "registration": "CRM/SC 4076",
+    "specialty": "Ortopedia e Traumatologia (também Nutrologia e Cirurgia Plástica)"
+   },
+   {
+    "name": "Dr. Rafael Martins",
+    "registration": "CRM/SC 20.727 / RQE 16.216",
+    "specialty": "Ortopedia e Traumatologia (Joelho)"
+   }
+  ],
+  "doctorCount": 2,
+  "doctors": "Dr. Marco Antonio Martins · Dr. Rafael Martins",
+  "phones": [],
+  "instagram": [
+   "clinica.vitavilleoficial",
+   "vitador.oficial"
+  ],
+  "address": "Rua São Paulo, 348",
+  "neighborhood": "Bucarein",
+  "postalCode": "89202-200"
+ },
+ {
+  "id": "lajeado-rs",
+  "city": "Lajeado",
+  "state": "RS",
+  "lat": -29.4591,
+  "lng": -51.9644,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Consultório Dr. Márcio Dutra",
+  "members": [
+   {
+    "name": "Dr. Márcio Dal Zot Dutra",
+    "registration": "CRM/RS 27.192 / RQE 18.835",
+    "specialty": "Ortopedia e Traumatologia, especialista em Cirurgia do Quadril (SBOT/SBQ)"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Márcio Dal Zot Dutra",
+  "phones": [
+   "(51) 99596-7171"
+  ],
+  "instagram": [
+   "dr.marciodutra"
+  ],
+  "address": "Avenida Benjamin Constant, 1126 — sala 303",
+  "neighborhood": "Centro",
+  "postalCode": "95900-104",
+  "website": "https://www.drmarciodutra.com.br/"
+ },
+ {
+  "id": "lavras-mg",
+  "city": "Lavras",
+  "state": "MG",
+  "lat": -21.248,
+  "lng": -45.0009,
+  "region": "Sudeste",
+  "category": "Ortopedia",
+  "unitName": "Dr. Rodolfo Fonseca de Padua Gonçalves",
+  "members": [
+   {
+    "name": "Dr. Rodolfo Fonseca de Padua Gonçalves",
+    "registration": "CRM/MG 39.790 / RQE 18231 e 32305",
+    "specialty": "Ortopedia e Traumatologia, especialista em Cirurgia da Mão"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Rodolfo Fonseca de Padua Gonçalves",
+  "phones": [
+   "(35) 3821-4755",
+   "(35) 99954-1409"
+  ],
+  "instagram": [
+   "rodolfo.ortopedia"
+  ],
+  "address": "Av. Dra. Damina Zakhian, 33",
+  "neighborhood": "Centro",
+  "postalCode": "37200-164"
+ },
+ {
+  "id": "lucas-do-rio-verde-mt",
+  "city": "Lucas do Rio Verde",
+  "state": "MT",
+  "lat": -13.0588,
+  "lng": -55.9042,
+  "region": "Centro-Oeste",
+  "category": "Ortopedia",
+  "unitName": "Clínica Santa Mônica",
+  "members": [
+   {
+    "name": "Dr. Paulo Roberto Marques Junior",
+    "registration": "CRM/MT 7006 / RQE 2779",
+    "specialty": "Ortopedia e Traumatologia"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Paulo Roberto Marques Junior",
+  "phones": [
+   "(65) 3549-5230"
+  ],
+  "instagram": [
+   "drpaulomarquesjr"
+  ],
+  "address": "Av. Rio Grande do Sul, 877S",
+  "neighborhood": "Menino Deus",
+  "postalCode": "78466-507"
+ },
+ {
+  "id": "macapa-ap",
+  "city": "Macapá",
+  "state": "AP",
+  "lat": 0.034934,
+  "lng": -51.0694,
+  "region": "Norte",
+  "category": "Ortopedia",
+  "unitName": "Instituto Nobre",
+  "members": [
+   {
+    "name": "Dr. Enzio Nobre Monteiro",
+    "registration": "CRM/AP 1.539 / RQE 686",
+    "specialty": "Ortopedia e Traumatologia"
+   },
+   {
+    "name": "Dra. Rafaella Queiroz Nobre",
+    "registration": "CRM/AP 1.694 / RQE 935",
+    "specialty": "Ortopedia e Traumatologia"
+   }
+  ],
+  "doctorCount": 2,
+  "doctors": "Dr. Enzio Nobre Monteiro · Dra. Rafaella Queiroz Nobre",
+  "phones": [
+   "(96) 99194-5377",
+   "(96) 99191-2303"
+  ],
+  "instagram": [
+   "institutonobre.ap",
+   "drenzionobre",
+   "drarafaellanobre"
+  ],
+  "address": "Avenida Antônio Coelho de Carvalho, 1107",
+  "neighborhood": "Central",
+  "postalCode": "68900-015"
+ },
+ {
+  "id": "marilia-sp",
+  "city": "Marília",
+  "state": "SP",
+  "lat": -22.2171,
+  "lng": -49.9501,
+  "region": "Sudeste",
+  "category": "Ortopedia",
+  "unitName": "Núcleo AG",
+  "members": [
+   {
+    "name": "Dr. Adriano Garcia Cirino",
+    "registration": "CRM/SP 161.796 / RQE 87143",
+    "specialty": "Ortopedia e Traumatologia, subespecialização em Cirurgia do Quadril"
+   },
+   {
+    "name": "Dr. Ewerton Zeydir Gonzalez Filho",
+    "registration": "CRM/SP 215.475",
+    "specialty": "Ortopedia e Traumatologia (atua também em Clínica Médica)"
+   }
+  ],
+  "doctorCount": 2,
+  "doctors": "Dr. Adriano Garcia Cirino · Dr. Ewerton Zeydir Gonzalez Filho",
+  "phones": [
+   "(14) 99901-5002"
+  ],
+  "instagram": [
+   "dr.adrianogarciacirino",
+   "clinica.nucleoag"
+  ],
+  "address": "Rua Bororós, 326",
+  "neighborhood": "Senador Salgado Filho",
+  "postalCode": "17502-270"
+ },
+ {
+  "id": "nova-prata-rs",
+  "city": "Nova Prata",
+  "state": "RS",
+  "lat": -28.7799,
+  "lng": -51.6113,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Clínica Médica Maurmann & Modena",
+  "members": [
+   {
+    "name": "Dr. Alex Modena",
+    "registration": "CRM/RS 35.587 / RQE 29.732",
+    "specialty": "Ortopedia e Traumatologia"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Alex Modena",
+  "phones": [
+   "(54) 99944-2825",
+   "(54) 3242-7059"
+  ],
+  "instagram": [
+   "clinicamaurmannmodena"
+  ],
+  "address": "Avenida Cônego Peres, 690 — sala 701",
+  "neighborhood": "Centro",
+  "postalCode": "95320-000"
+ },
+ {
+  "id": "palmas-to",
+  "city": "Palmas",
+  "state": "TO",
+  "lat": -10.24,
+  "lng": -48.3558,
+  "region": "Norte",
+  "category": "Unique",
+  "unitName": "Clínica Nidara",
+  "members": [
+   {
+    "name": "Dr. Pedro Florindo Ribeiro Coelho",
+    "registration": "CRM/TO 2040 / RQE 846",
+    "specialty": "Ginecologia e Obstetrícia"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Pedro Florindo Ribeiro Coelho",
+  "phones": [
+   "(63) 99933-5006"
+  ],
+  "instagram": [
+   "clinicanidara",
+   "drpedroflorindo"
+  ],
+  "address": "Quadra ARSE 41, Alameda 11, s/n, Lote 3, QR 13",
+  "neighborhood": "Plano Diretor Sul",
+  "postalCode": "77021-641"
+ },
+ {
+  "id": "passo-fundo-rs",
+  "city": "Passo Fundo",
+  "state": "RS",
+  "lat": -28.2576,
+  "lng": -52.4091,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Hospital Ortopédico de Passo Fundo",
+  "members": [
+   {
+    "name": "Dr. Airton Rodrigues",
+    "registration": "CRM 22070",
+    "specialty": "Ombro e Cotovelo"
+   },
+   {
+    "name": "Dr. Alexandre Fróes Michelin",
+    "registration": "CRM 23254",
+    "specialty": "Joelho e Traumatologia Esportiva"
+   },
+   {
+    "name": "Dr. Andrew Gustavo de Matos",
+    "registration": "CRM 42033",
+    "specialty": "Joelho e Traumatologia Esportiva"
+   },
+   {
+    "name": "Dr. Antero Camisa Júnior",
+    "registration": "CRM 18416",
+    "specialty": "Quadril"
+   },
+   {
+    "name": "Dr. Augusto Alves Badotti",
+    "registration": "CRM 28933",
+    "specialty": "Coluna"
+   },
+   {
+    "name": "Dr. Ayman Ihab Mustafa Said Khaled Qattash",
+    "registration": "CRM 47122",
+    "specialty": "Pé e Tornozelo"
+   },
+   {
+    "name": "Dr. Bruno D. Roos",
+    "registration": "CRM 29999",
+    "specialty": "Quadril"
+   },
+   {
+    "name": "Dr. Carlos Eduardo Grams",
+    "registration": "CRM 35894",
+    "specialty": "Clínico Geral"
+   },
+   {
+    "name": "Dr. Carlos Roberto Vargas Leal",
+    "registration": "CRM 4445",
+    "specialty": "Mão e Microcirurgia"
+   },
+   {
+    "name": "Dra. Carolina Monteiro Sampaio",
+    "registration": "CRM 29930",
+    "specialty": "Mão e Microcirurgia"
+   },
+   {
+    "name": "Dra. Carolina de Azevedo Rodrigues",
+    "registration": "CRM 51564",
+    "specialty": "Fisiatria"
+   },
+   {
+    "name": "Dr. Diego da Silva Collares",
+    "registration": "CRM 32292",
+    "specialty": "Coluna"
+   },
+   {
+    "name": "Dr. Ezequiel Ungaretti",
+    "registration": "CRM 32441",
+    "specialty": "Quadril"
+   },
+   {
+    "name": "Dr. Francisco José dos Santos Neto",
+    "registration": "CRM 19218",
+    "specialty": "Ombro, Cotovelo e Ortopedia Oncológica"
+   },
+   {
+    "name": "Dra. Joana Stela Rovani de Moraes",
+    "registration": "CRM 30958",
+    "specialty": "Fisiatria"
+   },
+   {
+    "name": "Dr. João Marcus do Prado",
+    "registration": "CRM 28078",
+    "specialty": "Pé e Tornozelo"
+   },
+   {
+    "name": "Dr. Juliano S. L. Vieira",
+    "registration": "CRM 25049",
+    "specialty": "Coluna"
+   },
+   {
+    "name": "Dr. Leonardo Andrade Teixeira",
+    "registration": "CRM 50164",
+    "specialty": "Ombro, Cotovelo e Ortopedia Oncológica"
+   },
+   {
+    "name": "Dr. Lucas Ricci Leite",
+    "registration": "CRM 44302",
+    "specialty": "Mão e Microcirurgia"
+   },
+   {
+    "name": "Dr. Lyson Azevedo Aguiar",
+    "registration": "CRM 48737",
+    "specialty": "Joelho e Traumatologia Esportiva"
+   },
+   {
+    "name": "Dr. Marcelo Camargo de Assis",
+    "registration": "CRM 35543",
+    "specialty": "Ortopedia Pediátrica"
+   },
+   {
+    "name": "Dr. Marcos Monteiro da C. de Souza",
+    "registration": "CRM 37496",
+    "specialty": "Ombro e Cotovelo"
+   },
+   {
+    "name": "Dr. Mateus Breitenbach Scherer",
+    "registration": "CRM 32333",
+    "specialty": "Pé e Tornozelo"
+   },
+   {
+    "name": "Dr. Matheus Backes Sallet",
+    "registration": "CRM 40908",
+    "specialty": "Coluna"
+   },
+   {
+    "name": "Dr. Mauricio Domingos Betto",
+    "registration": "CRM 49068",
+    "specialty": "Quadril"
+   },
+   {
+    "name": "Dra. Michelle Zanferari",
+    "registration": "CRM 28396",
+    "specialty": "Ortopedia Pediátrica"
+   },
+   {
+    "name": "Dr. Milton Valdomiro Roos",
+    "registration": "CRM 8254",
+    "specialty": "Quadril"
+   },
+   {
+    "name": "Dr. Rodrigo Arnold Tisot",
+    "registration": "CRM 23172",
+    "specialty": "Coluna"
+   },
+   {
+    "name": "Dr. Rodrigo Ilha Algarve",
+    "registration": "CRM 25591",
+    "specialty": "Joelho e Traumatologia Esportiva"
+   },
+   {
+    "name": "Dr. Éder Menegassi Martel",
+    "registration": "CRM 28711",
+    "specialty": "Ombro e Cotovelo"
+   }
+  ],
+  "doctorCount": 30,
+  "doctors": "30 profissionais na equipe informada",
+  "phones": [
+   "(54) 2104-4333"
+  ],
+  "instagram": [
+   "hohospitalortopedico"
+  ],
+  "address": "Avenida Sete de Setembro, 817",
+  "neighborhood": "Centro",
+  "postalCode": "99010-121",
+  "website": "https://www.hopf.med.br/"
+ },
+ {
+  "id": "porto-alegre-rs",
+  "city": "Porto Alegre",
+  "state": "RS",
+  "lat": -30.0318,
+  "lng": -51.2065,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Proregen Porto Alegre",
+  "members": [
+   {
+    "name": "Dr. Alessandro José Padilha Fensterseifer",
+    "registration": "CRM/RS 28.212",
+    "specialty": "Ortopedia e Traumatologia"
+   },
+   {
+    "name": "Dr. João Mauro Mendina de Morais",
+    "registration": "CRM/RS 37.397 / RQE 34.679",
+    "specialty": "Ortopedia e Traumatologia"
+   },
+   {
+    "name": "Dr. Otávio Pereira Cadore",
+    "registration": "CRM/RS 42.635 / RQE 38.371 / TEOT 17.691",
+    "specialty": "Ortopedia e Traumatologia, especialista em Cirurgia do Quadril e Artroscopia"
+   }
+  ],
+  "doctorCount": 3,
+  "doctors": "Dr. Alessandro José Padilha Fensterseifer · Dr. João Mauro Mendina de Morais · Dr. Otávio Pereira Cadore",
+  "phones": [
+   "(51) 99585-9722"
+  ],
+  "instagram": [
+   "joao_mauro",
+   "drotavioortopedista",
+   "dralessandrotraumato"
+  ],
+  "address": "Rua Gomes Jardim, 201 — sala 617",
+  "neighborhood": "Santana",
+  "postalCode": "90620-130",
+  "website": "https://drjoaomauro.com.br/\nhttps://www.ortopediaportoalegre.com.br/\nhttps://dralessandrotraumatologia.com.br/"
+ },
+ {
+  "id": "recife-pe",
+  "city": "Recife",
+  "state": "PE",
+  "lat": -8.04666,
+  "lng": -34.8771,
+  "region": "Nordeste",
+  "category": "Ortopedia",
+  "unitName": "Instituto Perez",
+  "members": [
+   {
+    "name": "Dr. José Luiz Pessoa Perez",
+    "registration": "CRM/PE 12.694",
+    "specialty": "Ortopedia e Traumatologia (ênfase em Cirurgia do Joelho e Artroplastia)"
+   },
+   {
+    "name": "Dr. Marcelo Corrêa de Araújo Larrazábal",
+    "registration": "CRM/PE 17.874",
+    "specialty": "Ortopedia e Traumatologia, especialista em Cirurgia do Joelho (SBOT e SBCJ)"
+   },
+   {
+    "name": "Dr. Marcus André Costa Ferreira",
+    "registration": "CRM/PE 10.910",
+    "specialty": "Ortopedia e Traumatologia, Cirurgia da Coluna Vertebral"
+   },
+   {
+    "name": "Dr. Romero Antunes Barreto Lins",
+    "registration": "CRM/PE 19.054",
+    "specialty": "Ortopedia e Traumatologia, especialista em Cirurgia do Joelho e do Quadril (TEOT; SBOT)"
+   },
+   {
+    "name": "Dr. Thales Ribeiro Pessoa Couceiro",
+    "registration": "CRM/PE 11.720",
+    "specialty": "Ortopedia e Traumatologia (Ortopedia Geral e Pediátrica)"
+   }
+  ],
+  "doctorCount": 5,
+  "doctors": "5 profissionais na equipe informada",
+  "phones": [
+   "(81) 98604-0181"
+  ],
+  "instagram": [
+   "drjoseluizperez"
+  ],
+  "address": "Rua Senador José Henrique, 231 — sala 1402",
+  "neighborhood": "Ilha do Leite",
+  "postalCode": "50070-460",
+  "website": "https://drjoseluizperez.com.br/"
+ },
+ {
+  "id": "ribeirao-das-neves-mg",
+  "city": "Ribeirão das Neves",
+  "state": "MG",
+  "lat": -19.7621,
+  "lng": -44.0844,
+  "region": "Sudeste",
+  "category": "Unique",
+  "unitName": "Clínica Boas Novas",
+  "members": [
+   {
+    "name": "Dr. Francisco Ernesto Eller",
+    "registration": "CRM/MG 11.123 / RQE 15227 (Cardiologia), 15228 (Ergometria), 15444 (Clínica Médica)",
+    "specialty": "Cardiologia (também Ergometria e Clínica Médica)"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Francisco Ernesto Eller",
+  "phones": [
+   "(31) 3625-1335"
+  ],
+  "instagram": [
+   "clinicaboasnovas"
+  ],
+  "address": "Rua José Alexandre de Freitas, 14",
+  "neighborhood": "Bela Vista",
+  "postalCode": "33805-160",
+  "website": "https://hospitalboasnovas.com.br/"
+ },
+ {
+  "id": "santa-cruz-do-sul-rs",
+  "city": "Santa Cruz do Sul",
+  "state": "RS",
+  "lat": -29.722,
+  "lng": -52.4343,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Proregen Santa Cruz do Sul",
+  "members": [
+   {
+    "name": "Dr. Robert Wagner",
+    "registration": "CRM/RS 17.506 / RQE 8.387",
+    "specialty": "Ortopedia e Traumatologia (especialização em Quadril e Coluna; Membro Titular da SBOT)"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Robert Wagner",
+  "phones": [
+   "(51) 99766-6369"
+  ],
+  "instagram": [
+   "dr.robert.wagner"
+  ],
+  "address": "Rua Marechal Deodoro, 949 — 202",
+  "neighborhood": "Centro",
+  "postalCode": "96810-102"
+ },
+ {
+  "id": "santa-maria-rs",
+  "city": "Santa Maria",
+  "state": "RS",
+  "lat": -29.6868,
+  "lng": -53.8149,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Clínica Dr. Davidson Alba - Neurocirurgião Coluna & Crânio",
+  "members": [
+   {
+    "name": "Dr. Davidson Alba",
+    "registration": "CRM/RS 32.970 / RQE 27.233",
+    "specialty": "Neurocirurgia, ênfase em Cirurgia da Coluna Vertebral e Crânio (Membro Titular SBN)"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Davidson Alba",
+  "phones": [
+   "(55) 99962-1463",
+   "(55) 3222-5188"
+  ],
+  "instagram": [
+   "dr_davidson_alba"
+  ],
+  "address": "Rua Pinheiro Machado, 2366 — 603",
+  "neighborhood": "Centro",
+  "postalCode": "97050-600",
+  "website": "https://drdavidsonalba.com.br/"
+ },
+ {
+  "id": "santiago-rs",
+  "city": "Santiago",
+  "state": "RS",
+  "lat": -29.1897,
+  "lng": -54.8666,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Somma Medicina Integrada",
+  "members": [
+   {
+    "name": "Dr. Juliano Pinto da Silva",
+    "registration": "CRM/RS 33.716",
+    "specialty": "Ortopedia e Traumatologia"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Juliano Pinto da Silva",
+  "phones": [
+   "(55) 99954-4114",
+   "(55) 99931-6105"
+  ],
+  "instagram": [
+   "drjulianosilva",
+   "sommamedicinaintegrada"
+  ],
+  "address": "Rua Sete de Setembro, 510",
+  "neighborhood": "Centro",
+  "postalCode": "97700-240"
+ },
+ {
+  "id": "sobral-ce",
+  "city": "Sobral",
+  "state": "CE",
+  "lat": -3.68913,
+  "lng": -40.3482,
+  "region": "Nordeste",
+  "category": "Ortopedia",
+  "unitName": "CIDORE",
+  "members": [
+   {
+    "name": "Dr. Thiago Mont Alverne Lopes Parente",
+    "registration": "CRM/CE 12.196",
+    "specialty": "Ortopedia e Traumatologia (Artroscopia e Cirurgia do Joelho)"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Thiago Mont Alverne Lopes Parente",
+  "phones": [
+   "(88) 99275-6141"
+  ],
+  "instagram": [
+   "drthiagomontalverne"
+  ],
+  "address": "Avenida Monsenhor José Aloísio Pinto, 1362 — salas 221/222",
+  "neighborhood": "Gerardo Cristino",
+  "postalCode": "62051-225"
+ },
+ {
+  "id": "tubarao-sc",
+  "city": "Tubarão",
+  "state": "SC",
+  "lat": -28.4808,
+  "lng": -49.0046,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Proregen Tubarão (local 1: Ortoimagem Centro de Ortopedia)",
+  "members": [
+   {
+    "name": "Dr. Fabrício Rampinelli Zanella",
+    "registration": "CRM/SC 1.659 / RQE 7.323",
+    "specialty": "Ortopedia e Traumatologia, especialista em Pé e Tornozelo"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Fabrício Rampinelli Zanella",
+  "phones": [
+   "(48) 3631-1400",
+   "(48) 3631-1515",
+   "(48) 3631-1500"
+  ],
+  "instagram": [
+   "dr.fabriciozanella"
+  ],
+  "address": "Rua Padre Bernardo Freuser, 228",
+  "neighborhood": "Centro",
+  "postalCode": "88701-140",
+  "website": "https://drfabriciozanella.com.br/"
+ },
+ {
+  "id": "tubarao-sc-local-2",
+  "city": "Tubarão",
+  "state": "SC",
+  "lat": -28.4784,
+  "lng": -48.999,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Proregen Tubarão (local 2: Provida)",
+  "members": [
+   {
+    "name": "Dr. Fabrício Rampinelli Zanella",
+    "registration": "CRM/SC 1.659 / RQE 7.323",
+    "specialty": "Ortopedia e Traumatologia, especialista em Pé e Tornozelo"
+   }
+  ],
+  "doctorCount": 1,
+  "doctors": "Dr. Fabrício Rampinelli Zanella",
+  "phones": [
+   "(48) 3631-1400",
+   "(48) 3631-1515",
+   "(48) 3631-1500"
+  ],
+  "instagram": [
+   "dr.fabriciozanella"
+  ],
+  "address": "Avenida Marcolino Martins Cabral, 2075",
+  "neighborhood": "Vila Moema",
+  "postalCode": "88705-001",
+  "website": "https://drfabriciozanella.com.br/"
+ },
+ {
+  "id": "xangri-la-rs",
+  "city": "Xangri-Lá",
+  "state": "RS",
+  "lat": -29.8065,
+  "lng": -50.0519,
+  "region": "Sul",
+  "category": "Ortopedia",
+  "unitName": "Clínica Malaquias",
+  "members": [
+   {
+    "name": "Dr. Eduardo Adilson Santos Malaquias",
+    "registration": "CRM/RS 24.038 / RQE 15.438 / TEOT 8.279",
+    "specialty": "Ortopedia e Traumatologia (Membro Titular SBOT; Perito Médico Judicial do TJ/RS)"
+   },
+   {
+    "name": "Dr. Jarbas da Silva Martini Filho",
+    "registration": "CRM/RS 39.412",
+    "specialty": "Ortopedia e Traumatologia"
+   }
+  ],
+  "doctorCount": 2,
+  "doctors": "Dr. Eduardo Adilson Santos Malaquias · Dr. Jarbas da Silva Martini Filho",
+  "phones": [
+   "(51) 99778-1020"
+  ],
+  "instagram": [
+   "dreduardomalaquias",
+   "drjarbasmartini"
+  ],
+  "address": "Rua Elias João Medeiros, 2002 — salas 411 e 412",
+  "neighborhood": "Bairro Santorini",
+  "postalCode": "95588-000",
+  "website": "https://clinicamalaquias.com.br/\nhttps://drjarbasmartini.com.br/"
+ }
+]
